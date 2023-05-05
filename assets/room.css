@@ -1,0 +1,89 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.animate {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #98231d;
+    background-color: bisque;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #98231d;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.delete-button {
+    margin-left: auto;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.itinerary {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: #98231d;
+}
+
+.day {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time {
+    margin-right: 10px;
+}
+
+.notes {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#save-notes {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

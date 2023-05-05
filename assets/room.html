@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="room.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trip Planner</h1>
+        <div class="animate">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_mdbdc5l7.json" background="transparent"
+                speed="1" ;" loop autoplay>
+            </lottie-player>
+        </div>
+
+        <!-- TODO List -->
+        <h2>TODO List</h2>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Book flight</span>
+                <button class="delete-button">Delete</button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Book hotel</span>
+                <button class="delete-button">Delete</button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Rent a car</span>
+                <button class="delete-button">Delete</button>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text">Pack clothes</span>
+                <button class="delete-button">Delete</button>
+            </li>
+        </ul>
+
+        <!-- Itinerary -->
+        <h2>ITINERARY</h2>
+        <div class="itinerary\">
+            <div class="day">Day 1</div>
+            <div class="activity">
+                <span class="time">8:00 AM</span>
+                <span class="activity-text">Breakfast at hotel</span>
+            </div>
+            <div class="activity">
+                <span class="time">10:00 AM</span>
+                <span class="activity-text">Visit museum</span>
+            </div>
+            <div class="activity">
+                <span class="time">12:00 PM</span>
+                <span class="activity-text">Lunch at local restaurant</span>
+            </div>
+            <div class="activity">
+                <span class="time">5:00 PM</span>
+                <span class="activity-text">Suicide Point Visit</span>
+            </div>
+            <div class="activity">
+                <span class="time">8:00 PM</span>
+                <span class="activity-text">Dinner At Hotel</span>
+            </div>
+            <div class="activity">
+                <span class="time">10:00 PM</span>
+                <span class="activity-text">Bonfire</span>
+            </div>
+        </div>
+
+        <!-- Notes -->
+        <h2>NOTES</h2>
+        <div class="notes">
+            <textarea placeholder=" write here...." id="notes"></textarea>
+            <button id="save-notes">Save notes</button>
+        </div>
+    </div>
+    <script src="room.js"></script>
+</body>
+
+</html>
